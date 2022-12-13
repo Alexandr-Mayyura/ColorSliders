@@ -27,9 +27,7 @@ struct ColorToolsView: View {
         .onAppear {
             text = "\(lround(value))"
         }
-        
     }
-    
 }
 
 struct ColorToolsView_Previews: PreviewProvider {

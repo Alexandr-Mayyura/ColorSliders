@@ -22,9 +22,7 @@ struct ColorRectangleView: View {
             .frame(width: 350, height: 170)
             .cornerRadius(16)
             .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.white, lineWidth: 4))
-       
     }
-    
 }
 
 struct ColorRectangleView_Previews: PreviewProvider {

@@ -27,13 +27,11 @@ struct TextfieldView: View {
         .multilineTextAlignment(.trailing)
         .textFieldStyle(.roundedBorder)
         .keyboardType(.decimalPad)
-        .alert("Wrong Format", isPresented: $showAlert, actions: {}) {
+        .alert("Wrong value", isPresented: $showAlert, actions: {}) {
             Text("Please enter value from 0 to 255")
         }
     }
 }
-
-
 
 struct TextfieldView_Previews: PreviewProvider {
     static var previews: some View {

@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ColorTextView: View {
-    
     let value: Double
     
     var body: some View {
